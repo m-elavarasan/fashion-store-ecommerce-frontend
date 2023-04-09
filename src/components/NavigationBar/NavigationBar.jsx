@@ -1,5 +1,5 @@
 import React from "react"
-import "C:/Users/SUDHARSANAN S R/Desktop/nextjs/Fashion-store/src/components/NavigationBar/NavigationBar.css";
+import "./NavigationBar.css";
 const NavigationBar = () => {
   return <nav>
     <a href="/">Fashion Store </a>

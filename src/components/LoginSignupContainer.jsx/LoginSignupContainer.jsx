@@ -1,5 +1,5 @@
 import { useRef , useState } from 'react';
-import "C:/Users/SUDHARSANAN S R/Desktop/nextjs/Fashion-store/src/components/LoginSignupContainer.jsx/LoginSignupContainer.css"
+import "./LoginSignupContainer.css"
 import Signup from '../signup/Signup';
 import Login from '../Login/Login';
 const LoginSignupContainer = () => {
