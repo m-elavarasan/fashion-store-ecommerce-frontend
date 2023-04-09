@@ -5,10 +5,11 @@ const Signup = () => {
     <div className='signup'>
     <h1>Sign up </h1>
      <form>
-        <input type='email' placeholder='email' />
-        <input type='password' placeholder='Password' />
-        <input type='password' placeholder='confirm password' />
+        <input type='Name' placeholder='Name' />
+        <input type='Email' placeholder='Email' />
+        <input type='password' placeholder='password' />
         <button type='submit'>signup</button>
+
      </form>
      </div>
   )
