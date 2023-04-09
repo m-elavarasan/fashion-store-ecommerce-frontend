@@ -1,0 +1,44 @@
+.login-signup-container{
+    display: grid;
+    grid-template-columns: 70% 30% 70%;
+    width: 50%;
+    height: 400px;
+    background-color: #f5f5f5;
+    padding: 0px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #0000;
+    border-color: #544949;
+    overflow: hidden;
+    transition: 0.3s linear ;
+}
+.login-signup-container.active{
+    grid-template-columns: 0 30% 70%;
+    transition: 0.3s linear ;
+
+}
+.login-signup-container .side-div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: url('C:/Users/SUDHARSANAN S R/Desktop/nextjs/Fashion-store/signup.jpg');
+    background-size: cover;
+    background-position: center ;
+    justify-content: center;
+}
+.login-signup-container .side-div button{
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+    font-size: 0.99rem;
+    transition: 0.3s linear;
+}
+
+.login-signup-container.side-div button:hover{
+   background-color: #544949;
+    
+}
