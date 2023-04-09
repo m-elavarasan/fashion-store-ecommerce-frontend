@@ -23,7 +23,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    background: url('C:/Users/SUDHARSANAN S R/Desktop/nextjs/Fashion-store/signup.jpg');
+    background: url('/src/assets/images/signup.jpg');
     background-size: cover;
     background-position: center ;
     justify-content: center;
